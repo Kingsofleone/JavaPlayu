@@ -1,8 +1,6 @@
 Oxyus Installation Instructions
 
-$Id: DEPLOY.txt,v 1.2 2004/10/10 17:47:39 csaltos Exp $
-
-INTRODUCTION
+# INTRODUCTION
 
 The main objective for installing Oxyus is to deploy oxyus.war in
 a java server and start oxyus from http://yourserver/oxyus/admin.
@@ -24,7 +22,7 @@ APACHE TOMCAT
 JBOSS
 
 	1. Create a directory named oxyus.war in the deploy directory
-	   of a JBoss server (normally server/default/deploy).
+	   of a JBoss server (normally host/default/deploy).
 	   
 	2. Unpack the content of the oxyus.war file in the newly created
 	   deploy/oxyus.war directory.
@@ -37,19 +35,5 @@ JBOSS
 	   cd oxyus.war
 	   jar xvf /oxyus/oxyus.war
 	   
-	3. Go to Oxyus Admin located at http://yourserver/oxyus/admin
-	   and instruct Oxyus which website to index.
-
-BUGS
-
-If you found and error in Oxyus please submit an error report at:
-http://sourceforge.net/tracker/?func=add&group_id=22866&atid=376685
-
-SUPPORT
-
-If you need to deploy Oxyus in another server, please fill a support
-request at:
-http://sourceforge.net/tracker/?func=add&group_id=32230&atid=404833
-
-Also consider to enroll the Oxyus users list at:
-http://lists.sourceforge.net/lists/listinfo/oxyus-users
+	3. Go to Oxyus Admin located at http://localhost/oxyus/admin
+	
