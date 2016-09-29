@@ -20,5 +20,5 @@ The Oxyus Web Site is at:
 # BUILDING
 For building Oxyus you need to use Apache Ant with the build.xml file.
 
- (For specific server instructions review the DEPLOY.txt file)
+ (For specific server instructions review the DEPLOY.md file)
 
