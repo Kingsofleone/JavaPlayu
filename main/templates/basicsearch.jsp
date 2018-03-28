@@ -26,12 +26,12 @@
 <%@page import="org.apache.lucene.index.*" %>
 <%@page import="org.apache.lucene.search.*" %>
 <%@page import="org.apache.lucene.queryParser.*" %>
-<%@page import="org.oxyus.admin.Configuration" %>
-<%@page import="org.oxyus.util.Constants" %>
+<%@page import="org.JavaPlayu.admin.Configuration" %>
+<%@page import="org.JavaPlayu.util.Constants" %>
 
 <html>
   <head>
-    <title>Oxyus Search Engine</title>
+    <title>JavaPlayu Search Engine</title>
   </head>
   <body>
  
@@ -64,7 +64,7 @@
 				searcher = new IndexSearcher(
 					IndexReader.open(Configuration.getIndexDirectory()));
 			} catch (IOException ioe) {
-				%>No index exists, please setup oxyus
+				%>No index exists, please setup JavaPlayu
 				<a href="<%= request.getContextPath() %>/admin">here</a>.<%
 			}
 			if (searcher != null) {
