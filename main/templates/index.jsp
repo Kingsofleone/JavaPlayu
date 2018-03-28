@@ -16,7 +16,7 @@
 
 <html>
   <head>
-    <title>Oxyus - Search Templates</title>
+    <title>JavaPlayu - Search Templates</title>
   </head>
   <body>
  
